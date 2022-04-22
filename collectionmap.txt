@@ -1,0 +1,55 @@
+package com.collection;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class Collection_Map {
+	public static void main(String[] args) {
+		Map<Integer, Object> k=new HashMap<Integer, Object>();
+		
+		k.put(1,"kalai");
+		k.put(2, 20);
+		k.put(3, 5.5);
+		k.put(5, 's');
+		
+		System.out.println(k);
+		
+		Object a=k.get(5);
+		System.out.println(a);
+		
+		int b=k.size();
+		System.out.println(b);
+		
+		Set<Integer> c=k.keySet();
+		System.out.println(c);
+		
+		Collection<Object> d =k.values();
+		System.out.println(d);
+		
+		boolean e= k.containsKey(2);
+		System.out.println(e);
+		
+		boolean f=k.containsValue(5.5);
+		System.out.println(f);
+		
+	//	Set<E>  k.entrySet();
+		//System.out.println(g);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+
+
+}
